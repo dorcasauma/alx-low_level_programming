@@ -6,10 +6,9 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-printf("_putchar\n");f
-
+printf("_putchar\n");
 return(0);
 
 }
