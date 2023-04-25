@@ -5,7 +5,7 @@
  *
  * Return: Always 0.
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 char letter = 'a';
 int count = 0;
@@ -16,8 +16,7 @@ while (letter <= 'z')
 putchar(letter);
 letter++;
 }
-letter = 'a'; // reset to 'a' for the next iteration
-putchar('\n');
+letter = 'a';
 count++;
 }
 }
