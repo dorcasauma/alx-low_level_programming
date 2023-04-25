@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * checks is a character is islower.
+ * _islower - checks is a character is islower.
  *
  * Return: Always 0.
  */
