@@ -1,5 +1,4 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -13,10 +12,6 @@ _putchar(c);
 c++;
 }
 
-  _putchar('\n');
-}
-int main(void)
-{
-    print_alphabet();
-    return (0);
+_putchar('\n');
+
 }
