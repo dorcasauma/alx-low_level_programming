@@ -9,7 +9,7 @@
  *
  * Return: Always 0 (Success)
  */
-positive_or_negative(void)
+int positive_or_negative(void)
 {
 int n;
 
