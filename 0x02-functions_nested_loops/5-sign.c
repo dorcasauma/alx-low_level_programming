@@ -11,22 +11,18 @@ int print_sign(int n)
 {
     if (n > 0)
     {
+        return (1);
         putchar('+');
         putchar('1');
-        putchar('\n');
-        return (1);
     }
     else if (n == 0)
     {
-        putchar('0');
-        putchar('\n');
         return (0);
+        putchar('0');
     }
     else
     {
-        putchar('-');
+        return (-1);;
         putchar('1');
-        putchar('\n');
-        return (-1);
     }
 }
