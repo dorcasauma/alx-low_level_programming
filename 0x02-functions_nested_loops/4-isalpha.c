@@ -8,7 +8,6 @@
  */
 int _isalpha(int c)
 {
-char c;
 if (isalpha(c)){
 if (isupper(c) || islower(c))
 {
