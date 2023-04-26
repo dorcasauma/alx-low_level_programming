@@ -6,7 +6,7 @@
  *
  * Returns 1 if c is a letter, lowercase or uppercase,0 otherwise.
  */
-int main()
+int _isalpha(int c)
 {
 char c;
 if (isalpha(c)){
