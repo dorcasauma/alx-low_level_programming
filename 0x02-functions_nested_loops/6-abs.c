@@ -10,5 +10,7 @@
 
 int _abs(int r)
 {
-    return r;
+    abs(r);
+    return 0;
 }
+
