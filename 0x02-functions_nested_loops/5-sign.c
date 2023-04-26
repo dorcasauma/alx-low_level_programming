@@ -7,23 +7,18 @@
  *
  * Return: 1 if n is greater than zero, 0 if n is zero, -1 if n is less than zero.
  */
-int print_sign(int n)
-{
-    if (n > 0)
-    {
-        putchar('+');
-        putchar('1');
-        return (1);
-    }
-    else if (n == 0)
-    {
-        putchar('0');
-        return (0);
-    }
-    else
-    {
-        putchar('-');
-        putchar('1');
-        return (-1);
-    }
+int print_sign(int n){
+
+    int r;
+
+    r = print_sign(n);
+    printf("%d\n", r);
+    r = print_sign(0);
+    printf("%d\n", r);
+    r = print_sign(0xff);
+    printf("%d\n", r);
+    r = print_sign(-1);
+    printf("%d\n", r);
+
+    return (0);
 }
