@@ -10,8 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main(void)
+int _abs(int)
 {
-    int r;
-    return abs(r);
+return abs(r);
 }
