@@ -11,7 +11,7 @@ int print_sign(int n)
 {
 if (n > 0)
 {
-printf("%c %d", '+', );
+printf("%c %d", '+', n);
 return (1);
 }
 else if (n == 0)
