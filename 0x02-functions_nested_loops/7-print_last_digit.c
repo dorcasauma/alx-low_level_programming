@@ -5,12 +5,13 @@
  * int print_last_digit - prints the last digit of a number
  *
  * @int: the integer to print
- * Return: the value of the last digit
+ * Return: 0 prints the last digit of a number
  *
  */
 
 int print_last_digit(int r)
 {
 int k =  r%10;
-return printf("%d", k), k;
+_putchar(k);
+return (0);
 }
