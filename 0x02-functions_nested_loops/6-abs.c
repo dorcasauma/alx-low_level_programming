@@ -7,11 +7,11 @@
  *
  * Return: the absolute value of @r
  */
-#include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 
 int main(void)
 {
     int r;
-    return(abs(r));
+    return abs(r);
 }
