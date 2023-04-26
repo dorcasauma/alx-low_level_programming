@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int _abs(int)
+int _abs(int r)
 {
 return abs(r);
 }
