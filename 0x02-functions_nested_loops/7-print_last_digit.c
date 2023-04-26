@@ -13,5 +13,5 @@ int print_last_digit(int r)
 {
 int k =  r%10;
 printf(" %d", k);
-
+return (0);
 }
