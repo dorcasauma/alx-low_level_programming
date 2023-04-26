@@ -13,6 +13,10 @@ if (n > 0)
 {
 putchar('+');
 putchar('1');
+putchar(',');
+putchar(' ');
+putchar(5 + '0');
+_putchar('\n');
 return (1);
 putchar('+');
 }
