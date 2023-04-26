@@ -14,6 +14,7 @@ if (n > 0)
 putchar('+');
 putchar('1');
 return (1);
+putchar('+');
 }
 else if (n == 0)
 {
