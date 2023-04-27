@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
-#include "main.h"
 
 /**
  * main - check the code
@@ -15,4 +12,4 @@ int main(void)
     print_line(10);
     print_line(-4);
     return (0);
-    }
+}
