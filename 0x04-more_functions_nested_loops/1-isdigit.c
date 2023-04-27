@@ -2,10 +2,9 @@
 #include <ctype.h>
 
 /**
- * int _isdigit - checks is a character is digit.
- *
- *@c: character to be checked.
- *Return: 1 if @c is diigt, 0 otherwise.
+ * Checks if a character is a digit (0-9)
+ * @param c The character to check
+ * @return Non-zero value if the character is a digit, 0 otherwise
  */
 
 int _isdigit(int c)
