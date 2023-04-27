@@ -12,7 +12,7 @@ while (k <11)
 {
 int c;
 for (c = 0; c <= 9; c++) {
-putchar('a');
+putchar((char)c);
 }
 putchar('\n');
 k += 1;
