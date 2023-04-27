@@ -15,5 +15,4 @@ putchar(c);
 }
 putchar('\n');
 }
-return ();
 }
