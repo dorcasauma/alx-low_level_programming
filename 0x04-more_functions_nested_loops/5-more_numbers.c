@@ -14,7 +14,7 @@ while (k <10)
 int c;
 for (c = 0; c <= 14; c++)
 {
-putchar(c);
+putchar(c + '0');
 }
 putchar('\n');
 k += 1;
