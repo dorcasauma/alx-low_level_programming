@@ -5,7 +5,8 @@
  * @return zero value
  */
 
-void more_numbers(void){
+void more_numbers(void)
+{
 int k = 11;
 while (k <11)
 {
@@ -15,4 +16,5 @@ putchar(c);
 }
 putchar('\n');
 }
+return (0);
 }
