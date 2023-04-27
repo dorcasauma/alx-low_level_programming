@@ -17,5 +17,4 @@ putchar(c);
 putchar('\n');
 k += 1;
 }
-return (0);
 }
