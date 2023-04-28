@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- * Checks if a character is a digit (0-9)
+ * _isdigit - Checks if a character is a digit (0-9)
  * @param c The character to check
  * @return Non-zero value if the character is a digit, 0 otherwise
  */
