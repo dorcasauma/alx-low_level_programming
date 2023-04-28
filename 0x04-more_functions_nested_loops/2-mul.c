@@ -2,10 +2,10 @@
 #include <ctype.h>
 
 /**
- * int mul - multiplies two integers..
+ * mul - multiplies two integers..
  *
  *@a,@b: character to be multiplied.
- *Return:@a*@b
+ *@return: result of @a*@b
  */
 
 int mul(int a, int b)
