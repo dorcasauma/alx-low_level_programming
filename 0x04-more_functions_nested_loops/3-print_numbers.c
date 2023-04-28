@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * print_numb - prints the numbers, from 0 to 9, followed by a new line.
- *
- * @return zero value
+ * print_numbers - prints the numbers, from 0 to 9, followed by a new line.
+ *@c is being printed
+ * @return  no value
  */
 
 void print_numbers(void)
