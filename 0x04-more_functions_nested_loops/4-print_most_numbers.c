@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 /**
- * print_most_number - prints the numbers, from 0 to 9, but not 2 and followed by a new line.
+ * print_most_numbers - prints the numbers, from 0 to 9, but not 2 and followed by a new line.
  *
  * @return zero value
  */
-
 void print_most_numbers(void)
 {
 char c;
