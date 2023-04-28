@@ -3,7 +3,6 @@
 
 /**
  *_isupper - checks is a character is uppercase.
- *
  * @c: character to be checked.
  * @return: zero value
  */
