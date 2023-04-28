@@ -1,22 +1,14 @@
-#include <stdio.h>
-#include <ctype.h>
+#include <unistd.h>
 
 /**
- * Checks if a character is a digit (0-9)
- * @param c The character to check
- * @return Non-zero value if the character is a digit, 0 otherwise
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-void print_line(int n) {
-    if (n <= 0) {
-        // If n is 0 or less, only print a newline
-        putchar('\n');
-    } else {
-        // Otherwise, print n underscores followed by a newline
-        for (int i = 0; i < n; i++) {
-            putchar('_');
-        }
-        putchar('\n');
-    }
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
 
