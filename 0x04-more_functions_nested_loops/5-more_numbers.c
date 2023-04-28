@@ -2,20 +2,20 @@
 #include <ctype.h>
 
 /**
- *more_numbers - prints 10 times the numbers, from 0 to 14, followed by a new line.
- * @return zero value
+ * more_numbers - prints 10 times the numbers,0-14
  */
 
 void more_numbers(void)
 {
 int k = 0;
-while (k <10)
+while (k < 10)
 {
 int c;
 for (c = 0; c <= 14; c++)
 {
 int d = c;
-if (c > 9){
+if (c > 9)
+{
 int first = c/10;
 int second = c % 10;
 putchar(first + '0');
