@@ -16,7 +16,7 @@ return;
 }
 for (i = 0; i < n; i++)
 {
-putchar("*\n");
+putchar('*\n');
 }
 putchar('\n');
 }
