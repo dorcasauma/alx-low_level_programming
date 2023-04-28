@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * draws a straight line in the terminal.
+ * print_line - draws a straight line in the terminal.
  *
  * @return zero value
  */
