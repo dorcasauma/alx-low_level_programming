@@ -6,6 +6,7 @@
  * @s: string to be checked the length
  *
  * This function returns the length of a string.
+ *Return:0
  */
 
 
