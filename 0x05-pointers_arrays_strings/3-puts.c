@@ -1,12 +1,11 @@
 #include <stdio.h>
 /**
- *void _putst - prints a string followed by a new line.
- *@str: is the parameter
+ * _puts - prints a string, followed by a new line, to stdout.
+ * @str: Pointer to the string to be measured.
  *
- *Prints a string followed by a new line
- *
- *
+ * Return: no return value.
  */
+
 void _puts(char *str)
 {
 while (*str != '\0')
