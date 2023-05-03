@@ -7,18 +7,20 @@
  */
 void print_rev(char *s)
 {
-int len = 0;
-while (*s != '\0')
+char *start = s;
+char *end = s;
+char tmp;
+while (*end != '\0')
+
+end++;
+
+end--;
+while (start < end)
 {
-len++;
-s++;
+tmp = *start;
+*start = *end;
+*end = tmp;
+start++;
+end--;
 }
-s--;
-while (len > 0)
-{
-putchar(*s);
-s--;
-len--;
-}
-putchar('\n');
 }
