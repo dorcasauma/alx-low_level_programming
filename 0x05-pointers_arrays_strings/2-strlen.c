@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * int _strlen - returns length of a string
- * @char s: string to check the length
+ * @s: string to be checked the length
  *
  * This function returns the length of a string.
  */
@@ -17,6 +17,6 @@ while (*s != '\0')
 len++;
 s++;
 }
-return len;
+return (len);
 }
 
