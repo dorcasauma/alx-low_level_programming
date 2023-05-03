@@ -4,6 +4,7 @@
 /**
  * int _strlen - returns length of a string
  * @s: string to be checked the length
+ *@ _strlen returns len of a string
  *
  * This function returns the length of a string.
  *Return:0
