@@ -4,7 +4,8 @@
  * \n of a string, starting with the first character,
  * followed by a new line.
  *
- *@str - pointer to a null-terminated string to be printed
+ * @str - the string to point
+ *Return: void
  */
 void puts2(char *str)
 {
