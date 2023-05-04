@@ -1,5 +1,5 @@
 /**
- * rot13 - Encodes a string using rot13
+ * *rot13 - Encodes a string using rot13
  * @s: Pointer to the string to be encoded
  *
  * Return: Pointer to the encoded string
