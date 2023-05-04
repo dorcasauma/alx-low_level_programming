@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * cap_string - Capitalizes all words of a string.
  * @str: Pointer to the string to be capitalized.
@@ -26,4 +27,5 @@ str[i] = str[i] - 32; // Subtract 32 to convert lowercase to uppercase
 }
 
 return (str);
+}
 }
