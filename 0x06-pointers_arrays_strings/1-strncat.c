@@ -1,4 +1,5 @@
 #include <string.h>
+#include <stdio.h>
 
 /**
  * *_strncat - Concatenates the first n characters of the string \n pointed to by `src`
