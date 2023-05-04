@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * *_strcat - Concatenates the string pointed to by `src` \n to the end of the string
  * pointed to by `dest`.
