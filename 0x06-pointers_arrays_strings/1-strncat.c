@@ -16,7 +16,7 @@
  *
  * @dest: A pointer to the destination string.
  * @src:  A pointer to the source string.
- * @n The maximum number of characters to copy from `src`.
+ * @n: The maximum number of characters to copy from `src`.
  *
  * Return: A pointer to the resulting string (`dest`).
  */
