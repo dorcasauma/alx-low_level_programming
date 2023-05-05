@@ -9,13 +9,13 @@
  * This function overwrites the null byte ('\0')
  * at the end of `dest`
  * and then copies at  most `n` characters of `src` to the end of `dest`.
- * If `src` contains `n` or more characters, 
+ * If `src` contains `n` or more characters,
  * the resulting string will
  * not be null-terminated.
  *
- * @param dest A pointer to the destination string.
- * @param src A pointer to the source string.
- * @param n The maximum number of characters to copy from `src`.
+ * @dest: A pointer to the destination string.
+ * @src:  A pointer to the source string.
+ * @n The maximum number of characters to copy from `src`.
  *
  * @return A pointer to the resulting string (`dest`).
  */
