@@ -18,7 +18,7 @@
  * @src:  A pointer to the source string.
  * @n The maximum number of characters to copy from `src`.
  *
- * @return A pointer to the resulting string (`dest`).
+ * Return: A pointer to the resulting string (`dest`).
  */
 char *_strncat(char *dest, const char *src, size_t n)
 {
