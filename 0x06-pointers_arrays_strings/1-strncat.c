@@ -9,7 +9,8 @@
  *
  * This function overwrites the null byte ('\0')
  * at the end of `dest`
- * and then copies at  most `n` characters of `src` to the end of `dest`.
+ * and then copies at  most `n` characters of
+ * `src` to the end of `dest`.
  * If `src` contains `n` or more characters,
  * the resulting string will
  * not be null-terminated.
