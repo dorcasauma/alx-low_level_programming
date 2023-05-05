@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * *_strcat - Concatenates the string pointed to by `src` \n to the end of the string
+ * _strcat - Concatenates the string pointed to by `src` \n to the end of the string
  * pointed to by `dest`.
  *
  * This function overwrites the null \n byte ('\0') at the end of `dest`
@@ -8,8 +8,8 @@
  * \n then adds a new null byte at the end to terminate the resulting
  * string.
  *
- * @param dest A pointer to the destination string.
- * @param src A pointer to the source string.
+ * dest: A pointer to the destination string.
+ * src: A pointer to the source string.
  *
  * @return A pointer to the resulting string (`dest`).
  */
