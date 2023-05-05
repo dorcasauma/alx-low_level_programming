@@ -6,7 +6,7 @@
  * This function compares the two
  * strings pointed to by s1 and s2,
  * an integer value based on their order.
- * The function returns 0 if the strings
+ * Return: The function returns 0 if the strings
  * are equal, a negative value
  * if s1 is less than s2, and a positive value if
  * s1 is greater than s2.
