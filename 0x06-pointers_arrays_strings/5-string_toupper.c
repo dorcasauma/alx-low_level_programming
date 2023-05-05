@@ -3,7 +3,8 @@
  * @str: Pointer to the string to be converted.
  *
  * This function takes a string pointed to by @str and changes all \n lowercase
- * letters to uppercase. It then returns a pointer to the converted string.
+ * letters to uppercase.
+ * Returns : a pointer to the converted string.
  */
 char *string_toupper(char *str)
 {
