@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-int a[5] = {1, 2, 4, 8, 16};
+int a[5] = {0, 1, 2,};
 int *p;
 
 p = &a[2];
