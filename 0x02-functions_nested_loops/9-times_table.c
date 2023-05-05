@@ -12,14 +12,14 @@ for (col = 0; col <= 9; col++)
 res = row * col;
 if (col == 0)
 {
-_putchar('0');
+putchar('0');
 }
 else if (res < 10)
 {
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(res + '0');
+putchar(',');
+putchar(' ');
+putchar(' ');
+putchar(res + '0');
 }
 else
 {
