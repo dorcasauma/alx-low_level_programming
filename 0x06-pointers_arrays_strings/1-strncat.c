@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * *_strncat - Concatenates the first n characters of the
+ * *_strncat - Concatenates the first n
+ * characters of the
  * string pointed to by `src`
 
  *
@@ -32,6 +33,6 @@ while (*src != '\0' && n-- > 0)
 *dest_end++ = *src++;
 }
 *dest_end = '\0';
-return dest;
+return (dest);
 }
 
