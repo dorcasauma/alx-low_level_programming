@@ -2,12 +2,15 @@
 #include <stdio.h>
 
 /**
- * *_strncat - Concatenates the first n characters of the string \n pointed to by `src`
- * to the end of the string \n pointed to by `dest`.
+ * *_strncat - Concatenates the first n characters of the
+ * string pointed to by `src`
+
  *
- * This function overwrites \n the null byte ('\0') at the end of `dest`
- * and then copies at \n  most `n` characters of `src` to the end of `dest`.
- * If `src` contains `n` or more \n characters, the resulting string will
+ * This function overwrites the null byte ('\0')
+ * at the end of `dest`
+ * and then copies at  most `n` characters of `src` to the end of `dest`.
+ * If `src` contains `n` or more characters, 
+ * the resulting string will
  * not be null-terminated.
  *
  * @param dest A pointer to the destination string.
