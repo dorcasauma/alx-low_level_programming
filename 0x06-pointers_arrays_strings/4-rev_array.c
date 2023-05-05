@@ -3,8 +3,10 @@
  * @a: Pointer to the array of integers.
  * @n: Number of elements in the array.
  *
- * This function reverses the content of \n the array @a. It takes @n as the number
- * of elements in the \n array @a, and swaps the elements in the array to reverse
+ * This function reverses the content of
+ * the array @a. It takes @n as the number
+ * of elements in the \n array @a, and swaps
+ * the elements in the array to reverse
  * the order of the elements.
  */
 void reverse_array(int *a, int n)
