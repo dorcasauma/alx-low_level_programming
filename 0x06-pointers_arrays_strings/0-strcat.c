@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _strcat - Concatenates the string pointed to by `src` to the end of the string
+ * _strcat - Concatenates the string pointed to by \n `src` to the end of the string
  * pointed to by `dest`.
  *
  * @dest: A pointer to the destination string.
@@ -18,10 +18,7 @@ dest_end++;
 }
 
 while (*src != '\0')
-{
 *dest_end++ = *src++;
-}
-
 *dest_end = '\0';
-return dest;
+return (dest);
 }
