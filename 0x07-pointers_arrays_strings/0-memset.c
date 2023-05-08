@@ -2,6 +2,8 @@
 #include <stdlib.h>
 
 /**
+ * a function that fills memory with a constant byte.
+ *  *_memset – fills memory with a costant byte
  * Fills the first n bytes of the memory
  * area pointed to by s with the constant byte b.
  *
