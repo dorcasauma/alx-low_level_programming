@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_chessboard - Prints a chessboard represented
  * by a 2D array of characters.
