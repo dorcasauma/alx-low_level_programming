@@ -13,7 +13,7 @@ for (i = 0; i < size; i++)
 {
 sum1 += *(a + i * size + i);
 sum2 += *(a + i * size + (size - 1 - i));
+}
 printf("Diagonal sum 1: %d\n", sum1);
 printf("Diagonal sum 2: %d\n", sum2);
-}
 }
