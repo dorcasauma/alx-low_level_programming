@@ -1,10 +1,10 @@
 /**
- * _strs - Calculates the length of the
+ * _strs : Calculates the length of the
  * initial segment of the string 's' that consists of
  * characters in the string 'accept'.
  *
- * @param s: A pointer to a null-terminated string.
- * @param accept: A pointer to a null-terminated string.
+ * @s: A pointer to a null-terminated string.
+ * @accept: A pointer to a null-terminated string.
  * Return: The number of bytes in the initial segment of s which consist only of bytes from accept.
  */
 unsigned int _strspn(char *s, char *accept)
