@@ -1,5 +1,5 @@
 /**
- * __strspn - Calculates the length of the
+ * _strspn - Calculates the length of the
  * initial segment of the string 's' that consists of
  * characters in the string 'accept'.
  *
