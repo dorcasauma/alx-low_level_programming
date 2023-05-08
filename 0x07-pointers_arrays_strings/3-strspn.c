@@ -1,5 +1,6 @@
 /**
- * _strs : Calculates the length of the
+ * This fuction gets the length of a prefix substring.
+ * __strspn : Calculates the length of the
  * initial segment of the string 's' that consists of
  * characters in the string 'accept'.
  *
