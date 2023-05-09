@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * print_square - Prints a square of a given size using '#'
  * @size: The size of the square to be printed
