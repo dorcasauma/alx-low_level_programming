@@ -4,12 +4,14 @@
 /**
  * mul - multiplies two integers..
  *
- *@a,@b: character to be multiplied.
- *@return: result of @a*@b
+ * @b: character to be multiplied.
+ * @a: character to be multiplied
+ * Return: result of a and b multiplied
  */
 
-int mul(int a, int b){
-int ans =(a * b);
+int mul(int a, int b)
+{
+int ans = (a * b);
 {
 return (ans);
 }
