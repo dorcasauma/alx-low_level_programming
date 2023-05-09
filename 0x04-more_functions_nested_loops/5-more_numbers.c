@@ -16,7 +16,7 @@ for (c = 0; c <= 14; c++)
 int d = c;
 if (c > 9)
 {
-int first = c/10;
+int first = c / 10;
 int second = c % 10;
 putchar(first + '0');
 d = second;
