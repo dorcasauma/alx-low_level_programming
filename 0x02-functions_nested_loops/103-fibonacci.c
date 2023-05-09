@@ -20,8 +20,8 @@ if (b % 2 == 0)
 {
 sum += b;
 }
-
-int c = a + b;
+int c;
+c = a + b;
 a = b;
 b = c;
 }
