@@ -5,9 +5,11 @@
  */
 void jack_bauer()
 {
-for (int hour = 0; hour < 24; hour++)
+int hour;
+for (hour = 0; hour < 24; hour++)
 {
-for (int minute = 0; minute < 60; minute++)
+int minute;
+for (minute = 0; minute < 60; minute++)
 {
 printf("%02d:%02d\n", hour, minute);
 }
