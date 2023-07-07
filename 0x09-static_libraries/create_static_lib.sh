@@ -5,7 +5,7 @@ c_files=$(find . -maxdepth 1 -type f -name "*.c")
 
 # Compile each .c file into corresponding .o file
 for file in $c_files; do
-    gcc -c "$file"
+    gcc -c "$file" -Wall -Werror -Wextra -pedantic -std=gnu89
 done
 
 # Create the static library
