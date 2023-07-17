@@ -2,7 +2,7 @@
 #include "3-function_like_macro.h"
 
 /**
- * main - check the code
+ * main - computes the absolute value of a number
  *
  * Return: Always 0.
  */
