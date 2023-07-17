@@ -2,6 +2,6 @@
 
 int main()
 {
-printf(__FILE__);
+puts(__FILE__);
 return (0);
 }
