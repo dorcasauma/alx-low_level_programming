@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * @param print_directly - prints a name
- * @param print_name - fuction pointer
+ * print_directly - prints a name
+ * print_name - fuction pointer
  * @param name The name to be printed.
  * Return: Always 0.
  */
