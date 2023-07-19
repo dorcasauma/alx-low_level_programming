@@ -1,11 +1,16 @@
 #include <stdio.h>
+/**
+ * main - prints a name.
+ *
+ * Return: Always 0.
+ */
 
 void print_directly(char *name)
 {
-    printf("Hello, my name is: %s\n", name);
+printf("Hello, my name is: %s\n", name);
 }
 
 void print_name(char *name, void (*f)(char *))
 {
-    f(name);
+f(name);
 }
