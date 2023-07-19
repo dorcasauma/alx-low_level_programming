@@ -5,7 +5,7 @@
  * function pointer as
  * arguments. It then executes the provided function
  * on each element of the array.
- * print_element This fuction Prints an integer element to the 
+ * print_element This fuction Prints an integer element to the
  * standard output.
  * @param element The integer element to be printed
  * @param array Pointer to the integer array.
