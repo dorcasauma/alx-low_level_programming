@@ -7,7 +7,6 @@
  * on each element of the array.
  * print_element - This fuction Prints an integer element to the standard output.
  * @param element - The integer element to be printed
- *
  * @param array Pointer to the integer array.
  * @param size The size of the array.
  * @param action A function pointer to a function that takes an integer as
