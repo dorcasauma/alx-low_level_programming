@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * array_iterato - This function takes an integer array, its size, and a function pointer as
+ * array_iterator - This function takes an integer array, its size, and a 
+ * function pointer as
  * arguments. It then executes the provided function
  * on each element of the array.
+ *print_element - Prints an integer element to the standard output.
  *
  * @param array Pointer to the integer array.
  * @param size The size of the array.
