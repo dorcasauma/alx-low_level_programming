@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 /**
- * @brief Executes the provided function on each element of an integer array.
- *
- * This function takes an integer array, its size, and a function pointer as
+ * array_iterato - This function takes an integer array, its size, and a function pointer as
  * arguments. It then executes the provided function
  * on each element of the array.
  *
@@ -12,7 +10,6 @@
  * @param action A function pointer to a function that takes an integer as
  *               an argument and returns void.
  */
-void array_iterator(int *array, size_t size, void (*action)(int));
 
 void print_element(int element)
 {
