@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - prints a name.
- *
+ * print_directly - prints a name
+ * name - name to be printed
  * Return: Always 0.
  */
 
