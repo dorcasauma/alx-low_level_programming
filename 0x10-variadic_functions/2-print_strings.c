@@ -6,7 +6,7 @@ va_list args;
 va_start(args, n);
 unsigned int i;
 i = 0;
-for (i < n; i++)
+for (i < n; i++;)
 {
 char* str = va_arg(args, char*);
 
