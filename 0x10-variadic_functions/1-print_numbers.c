@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdarg.h>
-unsigned int i; // Move the variable declaration here
+unsigned int i;
 int num;
 void print_numbers(const char *separator, const unsigned int n, ...) {
     va_list args;
