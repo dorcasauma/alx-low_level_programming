@@ -2,8 +2,8 @@
 #include <stdarg.h>
 /**
  * print_numbers - Prints numbers followed by a new line.
- * @separator: The string to be printed between the numbers (can be NULL).
- * @param n: The number of integers passed to the function.
+ * @param separator: The string to be printed between the numbers (can be NULL).
+ * @param n : The number of integers passed to the function.
  * ...: The variable number of integer arguments.
  *
  *
