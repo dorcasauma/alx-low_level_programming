@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdarg.h>
 #include "variadic_functions.h"
 
 /**
@@ -9,6 +7,6 @@
  */
 int main(void)
 {
-    print_strings(", ", 2, "Jay", "Django");
+    print_all("ceis", 'B', 3, "stSchool");
     return (0);
 }
