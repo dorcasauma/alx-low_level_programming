@@ -9,7 +9,8 @@
  * compare values.
  * The comparison function should take
  * an integer argument and return an integer.
- * Return: int_index should return 0 if the comparison fails, and a non-zero value otherwise.
+ * Return: int_index should return 0 if the comparison fails, 
+ * and a non-zero value otherwise.
  *the index of the first element that matches the comparison function.
  *if no element matches, or if size <= 0, it returns -1.
  */
