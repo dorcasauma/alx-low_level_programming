@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_al - prints a formatted list of elements based on the 
+ * print_all - prints a formatted list of elements based on the
  * provided format string.
- * Supported format specifiers: 'c' (char), 'i' (int), 'f' (float), 's' (string).
+ * Supported format specifiers:
+ *  'c' (char), 'i' (int), 'f' (float), 's' (string).
  * @format: The format string describing the elements to be printed.
  * @p...:The variable number of arguments based on the format string.
  */
