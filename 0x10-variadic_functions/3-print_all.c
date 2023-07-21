@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdarg.h>
-
 void print_all(const char * const format, ...)
 {
 char c;
@@ -10,7 +9,6 @@ char *s;
 const char *fmt_ptr = format;
 va_list args;
 va_start(args, format);
-
 while (*fmt_ptr)
 {
 switch (*fmt_ptr)
@@ -39,15 +37,10 @@ printf("%s", s);
 }
 break;
 }
-
-if (*(fmt_ptr + 1)) {
+if (*(fmt_ptr + 1))
 printf(", ");
-}
-
 fmt_ptr++;
 }
-
 va_end(args);
-
 printf("\n");
 }
