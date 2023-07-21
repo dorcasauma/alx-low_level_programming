@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdarg.h>
 void print_all(const char * const format, ...)
 {
@@ -27,13 +28,9 @@ break;
 case 's':
 s = va_arg(args, char*);
 if (s == NULL)
-{
 printf("(nil)");
-}
 else
-{
 printf("%s", s);
-}
 break;
 }
 if (*(fmt_ptr + 1))
