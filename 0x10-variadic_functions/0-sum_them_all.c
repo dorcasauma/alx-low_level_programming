@@ -1,9 +1,11 @@
 #include <stdarg.h>
-int sum = 0;
-unsigned int i;
-va_list args;
+#include <stdio.h>
 int sum_them_all(const unsigned int n, ...)
 {
+int sum;
+sum = 0;
+unsigned int i;
+va_list args;
 if (n == 0)
 return (0);
 
