@@ -1,17 +1,17 @@
 /**
- * int_index - Searches for an integer in an array and 
+ * int_index - Searches for an integer in an array and
  * returns the index of the first element
  * for which the provided comparison function does not return 0.
  *
  * @array: The pointer to the integer array to search.
  * @size: The number of elements in the array.
- * @cmp: A pointer to the function used to 
+ * @cmp: A pointer to the function used to
  * compare values.
- * The comparison function should take an integer argument and return an integer.
+ * The comparison function should take
+ * an integer argument and return an integer.
  * Return: int_index should return 0 if the comparison fails, and a non-zero value otherwise.
- *
- * Return: The index of the first element that matches the comparison function.
- *         If no element matches, or if size <= 0, it returns -1.
+ *the index of the first element that matches the comparison function.
+ *if no element matches, or if size <= 0, it returns -1.
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
