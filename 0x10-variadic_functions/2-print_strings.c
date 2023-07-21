@@ -1,5 +1,12 @@
 #include <stdio.h>
 #include <stdarg.h>
+/**
+ * print_strings - prints a variable number of strings, separated by a specified separator.
+ *
+ * @separator: The separator to be printed between the strings.
+ * @n: The number of strings to be printed.
+ * @...: The variable number of strings to print.
+ */
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
