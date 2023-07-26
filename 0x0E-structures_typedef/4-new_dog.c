@@ -3,8 +3,7 @@
 #include <string.h>
 #include "dog.h"
 /**
- *
- *  new_dog - This function allocates memory
+ * new_dog - this function allocates memory
  * for a new dog and its strings (name and owner).
  * It then makes a copy of the provided name and
  * owner in the allocated memory.
@@ -12,13 +11,12 @@
  * @name: The name of the new dog.
  * @age: The age of the new dog.
  * @owner: The owner's name of the new dog.
+ * free_dog - this function frees the dynamically allocated memory
+ * used by a dog instance,including its name and owner strings.
+ * @d: Pointer to the dog instance to be freed.
  *
  * Return -  A pointer to the newly created dog (dog_t).
  *         Returns NULL if memory allocation fails.
- * free_dog - This function frees the dynamically allocated memory 
- * used by a dog instance,including its name and owner strings.
- *
- * @d: Pointer to the dog instance to be freed.
  */
 
 dog_t *new_dog(char *name, float age, char *owner)
