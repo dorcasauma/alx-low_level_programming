@@ -1,8 +1,8 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog_t - Typedef for the struct dog type.
  * struct dog -  represents a dog with its name, age, and owner information.
+ * struct dog_t - Typedef for the struct dog type.
  *@name: the name of the dog.
  *@age: the age of the dog.
  *@owner: the owner of the dog.
