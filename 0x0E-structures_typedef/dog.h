@@ -1,8 +1,7 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- *struct - Represents a dog with its name, age, and owner
- *struct dog -  Represents a dog with its name, age, and owner information.
+ *struct dog -  represents a dog with its name, age, and owner information.
  *@name: the name of the dog.
  *@age: the age of the dog.
  *@owner: the owner of the dog.
@@ -13,7 +12,7 @@ char *name;
 float age;
 char *owner;
 } dog;
-typedef struct
+typedef struct dog_t
 {
 char *name;
 float age;
