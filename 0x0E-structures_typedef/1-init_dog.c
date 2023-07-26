@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
-#ifndef DOG_H
-#define DOG_H
 /**
  * @brief Initializes a dog structure with the provided information.
  *
@@ -22,4 +20,3 @@ d->name = strdup(name);
 d->age = age;
 d->owner = strdup(owner);
 }
-#endif /* DOG_H */
