@@ -2,8 +2,9 @@
 #include "dog.h"
 /**
  *
- *print_dog - This function takes a pointer to a `struct dog` and prints its contents, including the name,
- *age, and owner information. If any element of the `struct dog` is NULL, 
+ *print_dog - This function takes a pointer to a `struct dog` and prints
+ *its contents, including the name,
+ *age, and owner information. If any element of the `struct dog` is NULL,
  *it will print "(nil)" instead of the NULL value.
  *
  * @d: Pointer to the `struct dog` variable to be printed.
