@@ -20,6 +20,5 @@ printf("[%lu] %s\n", node_count, h->str);
 node_count++;
 h = h->next;
 }
-
-return(node_count);
+return (node_count);
 }
