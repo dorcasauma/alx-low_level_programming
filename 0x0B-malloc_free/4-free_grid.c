@@ -6,7 +6,7 @@
  * @grid: The 2-dimensional array to be freed.
  * @height: The height of the grid (number of rows).
  */
-void free_grid(int **grid, int height) 
+void free_grid(int **grid, int height)
 {
 int i;
 i = 0;
