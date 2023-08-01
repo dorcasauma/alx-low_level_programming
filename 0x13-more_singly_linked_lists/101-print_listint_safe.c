@@ -31,5 +31,5 @@ printf("[%p] %d\n", (void *)head, head->n);
 head = head->next;
 node_count++;
 }
-return node_count;
+return (node_count);
 }
