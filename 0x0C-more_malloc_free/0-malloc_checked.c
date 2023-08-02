@@ -16,5 +16,5 @@ if (ptr == NULL)
 fprintf(stderr, "Memory allocation failed.\n");
 exit(98);
 }
-return ptr;
+return (ptr);
 }
