@@ -17,8 +17,7 @@ if (square == n)
 return (mid);
 if (square < n)
 return (_sqrt_helper(n, mid + 1, end));
-
-    return _sqrt_helper(n, start, mid - 1); // Check the lower half.
+return (_sqrt_helper(n, start, mid - 1));
 }
 
 /**
