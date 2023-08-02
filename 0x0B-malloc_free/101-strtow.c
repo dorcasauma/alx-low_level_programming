@@ -21,7 +21,7 @@ count++;
 }
 str++;
 }
-return count;
+return (count);
 }
 
 /**
