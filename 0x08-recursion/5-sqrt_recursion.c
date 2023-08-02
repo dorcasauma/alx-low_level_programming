@@ -5,7 +5,7 @@
  * @n: The number for which to find the square root.
  * @start: The starting value to check for the square root.
  * @end: The ending value to check for the square root.
- * Return: The natural square root of n, or -1 if it doesn't have a 
+ * Return: The natural square root of n, or -1 if it doesn't have a
  * natural square root.
  */
 int _sqrt_helper(int n, int start, int end)
