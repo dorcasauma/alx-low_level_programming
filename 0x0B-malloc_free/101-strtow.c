@@ -85,7 +85,7 @@ if (words[i] == NULL)
 while (i >= 0)
 free(words[i--]);
 free(words);
-return NULL;
+return (NULL);
 }
 for (j = 0; j < word_len; j++)
 words[i][j] = start[j];
@@ -93,5 +93,5 @@ words[i][j] = '\0';
 i++;
 }
 words[i] = NULL;
-return words;
+return (words);
 }
