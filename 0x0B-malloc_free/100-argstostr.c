@@ -14,7 +14,7 @@ int total_length = 0;
 int i, j, k = 0;
 char *result = (char *)malloc((total_length + 1) * sizeof(char));
 if (ac == 0 || av == NULL)
-return NULL;
+return (NULL);
 for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
@@ -22,7 +22,7 @@ total_length++;
 total_length++;
 }
 if (result == NULL)
-return NULL;
+return (NULL);
 for (i = 0; i < ac; i++)
 {
 for (j = 0; av[i][j] != '\0'; j++)
@@ -34,7 +34,7 @@ result[k] = '\n';
 k++;
 }
 result[k] = '\0';
-return result;
+return (result);
 }
 
 
