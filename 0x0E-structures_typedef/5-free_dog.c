@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * free_dog - this function frees the dynamically allocated memory used 
+ * free_dog - this function frees the dynamically allocated memory used
  * by a dog instance,including its name and owner strings.
  * @d: Pointer to the dog instance to be freed.
  */
