@@ -64,9 +64,7 @@ free(words[i--]);
 free(words);
 return (NULL);
 }
-for (j = 0; j < word_len; j++) // Move 'j' declaration outside of for-loop
-words[i][j] = start[j];
-words[i][j] = '\0';
+for (j = 0; j < word_len; j++)
 i++;
 in_word = 0;
 }
