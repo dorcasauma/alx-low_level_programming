@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - The main function is the entry point of the program.
- *        It prints the number of command-line arguments (excluding the program name) to the console.
+ * It prints the number of command-line arguments
+ * (excluding the program name) to the console.
  *
  * @argc: The number of command-line arguments, including the program name.
  * @argv: An array of strings representing the command-line arguments.
