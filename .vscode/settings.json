@@ -2,6 +2,7 @@
     "files.associations": {
         "100-atoi.C": "cpp",
         "variadic_functions.h": "c",
-        "dog.h": "c"
+        "dog.h": "c",
+        "locale": "c"
     }
 }
