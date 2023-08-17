@@ -3,7 +3,7 @@
 #include <string.h>
 /**
  * read_textfile - Reads a textfile
- * @myfile: file to be read
+ * @filename: name of the file
  * Return: amount of bytes
 */
 ssize_t read_textfile(const char *filename)
