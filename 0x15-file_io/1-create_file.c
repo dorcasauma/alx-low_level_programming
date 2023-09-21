@@ -21,7 +21,7 @@ fprintf(file, "%s", text_content);
 }
 
 fclose(file);
-if (chmod(filename, 0400) == -1)
+if (chmod(filename, 0400 | 0200) == -1)
 {
 return (-1);
 }
