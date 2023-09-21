@@ -19,10 +19,4 @@ xor_result >>= 1;
 }
 return (count);
 }
-int main(void)
-{
-unsigned long int n = 29;
-unsigned long int m = 15;
-printf("Number of bits to flip: %u\n", flip_bits(n, m));
-return (0);
-}
+
