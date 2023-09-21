@@ -11,7 +11,7 @@ ssize_t bytes_read;
 ssize_t bytes_written;
 if (filename == NULL)
 {
-return 0;
+return (0);
 }
 fd = open(filename, O_RDONLY);
 if (fd == -1)
@@ -29,16 +29,16 @@ if (bytes_read == -1)
 {
 close(fd);
 free(buffer);
-return 0;
+return (0);
 }
 bytes_written = write(STDOUT_FILENO, buffer, bytes_read);
 if (bytes_written == -1 || bytes_written != bytes_read)
 {
 close(fd);
 free(buffer);
-return 0;
+return (0);
 }
 close(fd);
 free(buffer);
-return bytes_written;
+return (bytes_written);
 }
