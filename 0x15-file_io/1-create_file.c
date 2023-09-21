@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <sys/stat.h>
 /**
  * create_file - creates a file
  * @text_content: terminated string to write to the file
