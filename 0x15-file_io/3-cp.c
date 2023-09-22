@@ -6,8 +6,7 @@
 #define BUFSIZE 1024
 
 void error_exit(int code, const char *message) {
-    dprintf(STDERR_FILENO, "Error: %s\n", message); // Update error message format
-    exit(code);
+    dprintf(STDERR_FILENO, "Error: %s\n", message);
 }
 
 int main(int argc, char *argv[]) {
