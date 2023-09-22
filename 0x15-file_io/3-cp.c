@@ -17,6 +17,7 @@ int main(int argc, char *argv[]) {
 
     if (argc != 3) {
         error_exit(97, "Usage: cp file_from file_to");
+    }
 
     fd_from = open(argv[1], O_RDONLY);
     if (fd_from == -1) {
@@ -54,5 +55,4 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
-    }
 }
