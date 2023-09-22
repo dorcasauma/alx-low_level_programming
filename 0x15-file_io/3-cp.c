@@ -6,7 +6,7 @@
 #define BUFSIZE 1024
 
 void error_exit(int code, const char *message) {
-    dprintf(STDERR_FILENO, "%s\n", message); // Update error message format
+    dprintf(STDERR_FILENO, "%s\n", message);
     exit(code);
 }
 
@@ -16,8 +16,7 @@ int main(int argc, char *argv[]) {
     char buffer[BUFSIZE];
 
     if (argc != 3) {
-        error_exit(97, "Usage: cp file_from file_to"); // Update usage message
-    }
+        error_exit(97, "Usage: cp file_from file_to");
 
     fd_from = open(argv[1], O_RDONLY);
     if (fd_from == -1) {
@@ -55,4 +54,5 @@ int main(int argc, char *argv[]) {
     }
 
     return 0;
+    }
 }
